@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yc4fhvkm6cas"
-path="res://.godot/imported/nube-mediana (1).png-a5563ea38cd488a425ad95150144d87d.ctex"
+uid="uid://bbk1631gi8wsj"
+path="res://.godot/imported/nube-grande-oscura.png-c32d5490ee6d5ea1475458297cf39b73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/nube-mediana (1).png"
-dest_files=["res://.godot/imported/nube-mediana (1).png-a5563ea38cd488a425ad95150144d87d.ctex"]
+source_file="res://sprites/nube-grande-oscura.png"
+dest_files=["res://.godot/imported/nube-grande-oscura.png-c32d5490ee6d5ea1475458297cf39b73.ctex"]
 
 [params]
 

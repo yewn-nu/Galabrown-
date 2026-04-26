@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://ds6pvul4bshbl"]
 
 [ext_resource type="Script" uid="uid://weses15d1jw4" path="res://escenas/fondo.gd" id="1_67bck"]
-[ext_resource type="Texture2D" uid="uid://krhriokoytll" path="res://sprites/Cielo1.png" id="2_wvvap"]
+[ext_resource type="Texture2D" uid="uid://krhriokoytll" path="res://sprites/cielo1.png" id="2_wvvap"]
 [ext_resource type="Script" uid="uid://dgertr485i33e" path="res://escenas/cielo.gd" id="3_hdjqb"]
 [ext_resource type="Texture2D" uid="uid://qq5v41qwbsid" path="res://sprites/cielo-oscuro1.png" id="4_g5y43"]
 [ext_resource type="Script" uid="uid://dt0dggib25yv4" path="res://escenas/nubes.gd" id="4_wvvap"]
+[ext_resource type="Script" uid="uid://bfrofjsc8v450" path="res://escenas/cielo_oscuro.gd" id="5_00qvt"]
+[ext_resource type="Script" uid="uid://cfxawbapqu2ld" path="res://escenas/nubes_oscuro.gd" id="7_uxwy7"]
 
 [node name="Node2D" type="Node2D" unique_id=1659021316]
 
@@ -12,19 +14,19 @@
 script = ExtResource("1_67bck")
 
 [node name="cielo" type="Sprite2D" parent="Fondo" unique_id=1990889100]
+visible = false
 position = Vector2(640, -720)
 texture = ExtResource("2_wvvap")
 script = ExtResource("3_hdjqb")
 
 [node name="cielo-oscuro" type="Sprite2D" parent="Fondo" unique_id=1677306568]
-visible = false
 position = Vector2(640, -720)
 texture = ExtResource("4_g5y43")
-script = ExtResource("3_hdjqb")
+script = ExtResource("5_00qvt")
 
 [node name="Nubes" type="Node2D" parent="Fondo" unique_id=1421746478]
+visible = false
 script = ExtResource("4_wvvap")
 
 [node name="Nubes-oscuro" type="Node2D" parent="Fondo" unique_id=692172565]
-visible = false
-script = ExtResource("4_wvvap")
+script = ExtResource("7_uxwy7")

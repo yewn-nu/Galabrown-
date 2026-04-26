@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cd2yagspbl7f3"
-path="res://.godot/imported/nube-chica (1).png-c596b0e42d178e23e5473a96d5c9151f.ctex"
+uid="uid://dg4tyhd14vvbs"
+path="res://.godot/imported/nube-mediana-oscura.png-8e8058e07b305d797519383e94d9f076.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/nube-chica (1).png"
-dest_files=["res://.godot/imported/nube-chica (1).png-c596b0e42d178e23e5473a96d5c9151f.ctex"]
+source_file="res://sprites/nube-mediana-oscura.png"
+dest_files=["res://.godot/imported/nube-mediana-oscura.png-8e8058e07b305d797519383e94d9f076.ctex"]
 
 [params]
 

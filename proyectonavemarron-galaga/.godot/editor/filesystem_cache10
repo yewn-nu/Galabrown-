@@ -1,20 +1,22 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777235279
+::res://::1777244302
 icon.svg::CompressedTexture2D::5657016983210997118::1777221740::1777221747::1::::<><><>0<>0<>b9d2f8525fcf67d1fdb7b738be2759d5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://escenas/::1777242620
+::res://escenas/::1777244523
+cielo.gd::GDScript::7589719682121046828::1777244520::0::1::::<>Sprite2D<><>0<>0<><>::
 fondo.gd::GDScript::1553513107051689709::1777235412::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::8487606272282769609::1777242620::0::1::::<><><>0<>0<><>::uid://weses15d1jw4::::res://escenas/fondo.gd<>uid://krhriokoytll::::res://sprites/Cielo1.png<>uid://dgertr485i33e::::res://escenas/cielo.gd<>uid://qq5v41qwbsid::::res://sprites/cielo-oscuro1.png<>uid://dt0dggib25yv4::::res://escenas/nubes.gd
-cielo.gd::GDScript::7589719682121046828::1777240270::0::1::::<>Sprite2D<><>0<>0<><>::
-nubes.gd::GDScript::8544652717376401927::1777236710::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::8487606272282769609::1777244523::0::1::::<><><>0<>0<><>::uid://weses15d1jw4::::res://escenas/fondo.gd<>uid://krhriokoytll::::res://sprites/cielo1.png<>uid://dgertr485i33e::::res://escenas/cielo.gd<>uid://qq5v41qwbsid::::res://sprites/cielo-oscuro1.png<>uid://dt0dggib25yv4::::res://escenas/nubes.gd<>uid://bfrofjsc8v450::::res://escenas/cielo_oscuro.gd<>uid://cfxawbapqu2ld::::res://escenas/nubes_oscuro.gd
+nubes.gd::GDScript::8544652717376401927::1777243271::0::1::::<>Node2D<><>0<>0<><>::
+cielo_oscuro.gd::GDScript::2773318791222994817::1777244445::0::1::::<>Sprite2D<><>0<>0<><>::
+nubes_oscuro.gd::GDScript::5171305614612727141::1777244520::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/::1777222073
-::res://sprites/::1777243174
+::res://sprites/::1777244568
 a-pixel-art-background-featuring-a-smoot_Q1VhvzhmQmemQQI0p_rPVg_tlJKDdEgQkWSvJRMPFqsIw_sd.png::CompressedTexture2D::543479785779885198::1777222839::1777223825::1::::<><><>0<>0<>535b136c1e7832b11b65d37c72d8d719<>res://.godot/imported/a-pixel-art-background-featuring-a-smoot_Q1VhvzhmQmemQQI0p_rPVg_tlJKDdEgQkWSvJRMPFqsIw_sd.png-0d0613c61117b94367a18c00740ae47e.ctex::
 a-pixel-art-background-in-classic-8-bit-_LxWGm7OaS2-v8QVvCBQPgw_tlJKDdEgQkWSvJRMPFqsIw_cover_sd.png::CompressedTexture2D::958314739683214088::1777223055::1777223825::1::::<><><>0<>0<>fe4590eb15f4b7444c4ae787565c39f5<>res://.godot/imported/a-pixel-art-background-in-classic-8-bit-_LxWGm7OaS2-v8QVvCBQPgw_tlJKDdEgQkWSvJRMPFqsIw_cover_sd.png-ed24dac014c45b92d48828c1e6638efe.ctex::
 cielo1.png::CompressedTexture2D::737438677933180077::1777237666::1777237704::1::::<><><>0<>0<>d0bc0f63667e47addfba52ed98c1dc46<>res://.godot/imported/cielo1.png-c501412b3400adc797f3d41ea44780a3.ctex::
 cielo-oscuro1.png::CompressedTexture2D::1157912117826966851::1777242500::1777242517::1::::<><><>0<>0<>666106453ced205b0a7811e6d71f8716<>res://.godot/imported/cielo-oscuro1.png-29f9a2a1c45082e8619dc330e65852e9.ctex::
-nube-chica (1).png::CompressedTexture2D::5040603649116225934::1777228155::1777228307::1::::<><><>0<>0<>b1784497f0cc078e9d242b7253aa80f7<>res://.godot/imported/nube-chica (1).png-c596b0e42d178e23e5473a96d5c9151f.ctex::
-nube-chica-oscura.png::CompressedTexture2D::6047137695488684077::1777243125::1777243178::1::::<><><>0<>0<>2a98e20c029d2ca63caf7a2b134dd5a7<>res://.godot/imported/nube-chica-oscura.png-a357a7fc255dadf73317e59834680be6.ctex::
-nube-grande (1).png::CompressedTexture2D::7202876047593357785::1777228216::1777228307::1::::<><><>0<>0<>b0f79bae5bf06803e90008b0eb21a506<>res://.godot/imported/nube-grande (1).png-455d11f5f17542b6fbc0c53949a88de6.ctex::
-nube-grande-oscura.png::CompressedTexture2D::2478888817398056205::1777243155::1777243178::1::::<><><>0<>0<>c25293ef2057a3750758658d240ecff3<>res://.godot/imported/nube-grande-oscura.png-c32d5490ee6d5ea1475458297cf39b73.ctex::
-nube-mediana (1).png::CompressedTexture2D::1690431125156603474::1777228190::1777228307::1::::<><><>0<>0<>e14a3ae66780f379e8436bcd22bb1fb3<>res://.godot/imported/nube-mediana (1).png-a5563ea38cd488a425ad95150144d87d.ctex::
-nube-mediana-oscura).png::CompressedTexture2D::8951972488636037989::1777243142::1777243178::1::::<><><>0<>0<>47005a838d6f649db78eadf45f283dcc<>res://.godot/imported/nube-mediana-oscura).png-f9f01ef3e28023677fee4ad204df2138.ctex::
+nube-chica-oscura.png::CompressedTexture2D::6047137695488684077::1777243125::1777244303::1::::<><><>0<>0<>2a98e20c029d2ca63caf7a2b134dd5a7<>res://.godot/imported/nube-chica-oscura.png-a357a7fc255dadf73317e59834680be6.ctex::
+nube-chica.png::CompressedTexture2D::3379849761536472467::1777228155::1777244519::1::::<><><>0<>0<>3204990f37f4ec8cf6ef55697ac792d8<>res://.godot/imported/nube-chica.png-32d7903549e40389b592866800000fbc.ctex::
+nube-grande-oscura.png::CompressedTexture2D::2478888817398056205::1777243155::1777244303::1::::<><><>0<>0<>c25293ef2057a3750758658d240ecff3<>res://.godot/imported/nube-grande-oscura.png-c32d5490ee6d5ea1475458297cf39b73.ctex::
+nube-grande.png::CompressedTexture2D::1388525757928227919::1777228216::1777244519::1::::<><><>0<>0<>1ca1521268a8e1e37d33c61c46f7846e<>res://.godot/imported/nube-grande.png-61fa3789ed26128f3d34ec37c9341175.ctex::
+nube-mediana-oscura.png::CompressedTexture2D::7641458923210300032::1777243142::1777244571::1::::<><><>0<>0<>14e20006d376379df6cee98b33a420cc<>res://.godot/imported/nube-mediana-oscura.png-8e8058e07b305d797519383e94d9f076.ctex::
+nube-mediana.png::CompressedTexture2D::305840903358955921::1777228190::1777244519::1::::<><><>0<>0<>eb23f43bf93c8ebcaf6ed47273a95423<>res://.godot/imported/nube-mediana.png-0bf1c59957cc1f00c0be8b57b9d6d08d.ctex::

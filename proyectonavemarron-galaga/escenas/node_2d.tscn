@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ds6pvul4bshbl"]
+
+[ext_resource type="Script" uid="uid://weses15d1jw4" path="res://escenas/fondo.gd" id="1_67bck"]
+[ext_resource type="Texture2D" uid="uid://krhriokoytll" path="res://sprites/Cielo1.png" id="2_wvvap"]
+[ext_resource type="Script" uid="uid://dgertr485i33e" path="res://escenas/cielo.gd" id="3_hdjqb"]
+[ext_resource type="Script" uid="uid://dt0dggib25yv4" path="res://escenas/nubes.gd" id="4_wvvap"]
+
+[node name="Node2D" type="Node2D" unique_id=1659021316]
+
+[node name="Fondo" type="Node2D" parent="." unique_id=728855835]
+script = ExtResource("1_67bck")
+
+[node name="cielo" type="Sprite2D" parent="Fondo" unique_id=1990889100]
+position = Vector2(640, -720)
+texture = ExtResource("2_wvvap")
+script = ExtResource("3_hdjqb")
+
+[node name="Nubes" type="Node2D" parent="Fondo" unique_id=1421746478]
+script = ExtResource("4_wvvap")

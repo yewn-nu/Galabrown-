@@ -7,9 +7,9 @@ var velocidad = 150
 var nubes = []
 
 var texturas = [
-		preload("res://sprites/nube-chica (1).png"),
-		preload("res://sprites/nube-mediana (1).png"),
-		preload("res://sprites/nube-grande (1).png")
+		preload("res://sprites/nube-chica-oscura.png"),
+		preload("res://sprites/nube-mediana-oscura).png"),
+		preload("res://sprites/nube-grande-oscura.png")
 	]
 
 func _ready():

@@ -12,19 +12,19 @@
 script = ExtResource("1_67bck")
 
 [node name="cielo" type="Sprite2D" parent="Fondo" unique_id=1990889100]
-visible = false
 position = Vector2(640, -720)
 texture = ExtResource("2_wvvap")
 script = ExtResource("3_hdjqb")
 
 [node name="cielo-oscuro" type="Sprite2D" parent="Fondo" unique_id=1677306568]
+visible = false
 position = Vector2(640, -720)
 texture = ExtResource("4_g5y43")
 script = ExtResource("3_hdjqb")
 
 [node name="Nubes" type="Node2D" parent="Fondo" unique_id=1421746478]
-visible = false
 script = ExtResource("4_wvvap")
 
 [node name="Nubes-oscuro" type="Node2D" parent="Fondo" unique_id=692172565]
+visible = false
 script = ExtResource("4_wvvap")

@@ -1,0 +1,8 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1777301862
+bala.png::CompressedTexture2D::1576036055621461218::1777301234::1777301413::1::::<><><>0<>0<>efababc797f013bdcd1ce3350c94772f<>res://.godot/imported/bala.png-307fa9043c2611f2c6a1a490a284e6aa.ctex::
+Bala.tscn::PackedScene::3428264439137412191::1777301234::0::1::::<><><>0<>0<><>::uid://wppc3u2nnlp7::::res://bala.png<>uid://rbv5s3k0l5d4::::res://disparo.gd
+disparo.gd::GDScript::1726283380247924549::1777301234::0::1::::<>Sprite2D<><>0<>0<><>::
+icono.png::CompressedTexture2D::2649911844688804108::1777301234::1777301413::1::::<><><>0<>0<>f2f37e350e0d5cefc99bb78f1a16f888<>res://.godot/imported/icono.png-1007c568c49f09d8cdfdc298dcaeecf6.ctex::
+principal.tscn::PackedScene::1663929312748262301::1777301234::0::1::::<><><>0<>0<><>::uid://ck5qb47ftpk8p::::res://icono.png<>uid://dujw24sb2fgxw::::res://sprite_2d.gd
+sprite_2d.gd::GDScript::7410792014138539519::1777301234::0::1::::<>Sprite2D<><>0<>0<><>::

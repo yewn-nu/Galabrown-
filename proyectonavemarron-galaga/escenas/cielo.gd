@@ -9,6 +9,6 @@ func _process(delta):
 	position.y += velocidad_cielo * delta
 	
 	
-	if position.y >= 1440:
+	if position.y >= 1440: 
 		position.y = -687
 		

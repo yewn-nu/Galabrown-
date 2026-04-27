@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://xyaw4u6vjpkv"]
+
+[ext_resource type="Texture2D" uid="uid://bd0vwqa87jrr5" path="res://icono.png" id="1_tr6oq"]
+[ext_resource type="Script" uid="uid://ddt3wq8epr2r0" path="res://sprite_2d.gd" id="2_m7tbw"]
+
+[node name="principal" type="Node2D" unique_id=1731404349]
+
+[node name="Bala" type="Sprite2D" parent="." unique_id=787055698]
+position = Vector2(631.00006, 617)
+scale = Vector2(0.057387084, 0.05311357)
+texture = ExtResource("1_tr6oq")
+script = ExtResource("2_m7tbw")
+
+[node name="SpawnBala" type="Marker2D" parent="Bala" unique_id=1564957894]
+position = Vector2(-52.27764, 131.79306)

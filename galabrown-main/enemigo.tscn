@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://blakgxktm8g4c"]
+
+[ext_resource type="Script" uid="uid://c73tpiws5bkln" path="res://enemigo.gd" id="1_a5tj2"]
+[ext_resource type="Texture2D" uid="uid://c6yku1ykwv16m" path="res://sprites/Naves Enemigas/Nave enemiga 1.png" id="2_moxti"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a5tj2"]
+size = Vector2(53, 38)
+
+[node name="Enemigo" type="Area2D" unique_id=1976624608]
+script = ExtResource("1_a5tj2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=887437111]
+position = Vector2(0, 1)
+scale = Vector2(0.09082035, 0.09204099)
+texture = ExtResource("2_moxti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2087823674]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_a5tj2")

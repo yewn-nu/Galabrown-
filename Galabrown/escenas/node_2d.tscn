@@ -22,21 +22,21 @@ script = ExtResource("1_2end1")
 script = ExtResource("1_67bck")
 
 [node name="cielo" type="Sprite2D" parent="Fondo" unique_id=1990889100]
+visible = false
 position = Vector2(640, -720)
 texture = ExtResource("2_r0g7c")
 script = ExtResource("3_hdjqb")
 
 [node name="cielo-oscuro" type="Sprite2D" parent="Fondo" unique_id=1677306568]
-visible = false
 position = Vector2(640, -720)
 texture = ExtResource("4_ok7wh")
 script = ExtResource("5_00qvt")
 
 [node name="Nubes" type="Node2D" parent="Fondo" unique_id=1421746478]
+visible = false
 script = ExtResource("4_wvvap")
 
 [node name="Nubes-oscuro" type="Node2D" parent="Fondo" unique_id=692172565]
-visible = false
 script = ExtResource("7_uxwy7")
 
 [node name="Pricipal" type="Node2D" parent="." unique_id=1248068510]
@@ -67,4 +67,4 @@ max_value = 40.0
 value = 40.0
 
 [node name="Musica" type="AudioStreamPlayer" parent="." unique_id=588660488]
-volume_db = -14.0
+volume_db = -16.951

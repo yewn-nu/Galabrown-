@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://8xqjv57qd44b" path="res://jefe.gd" id="1_xije6"]
 [ext_resource type="Texture2D" uid="uid://b36qwb4gbyomt" path="res://sprites/Jefe1/Base.png" id="2_x8arm"]
-[ext_resource type="AudioStream" uid="uid://d2oewplgvvp7q" path="res://Musicas/Musica2.ogg" id="3_b3ojv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0fq7q"]
 size = Vector2(208, 187)
@@ -14,7 +13,7 @@ script = ExtResource("1_xije6")
 texture = ExtResource("2_x8arm")
 
 [node name="Colision" type="CollisionShape2D" parent="." unique_id=1295832109]
-position = Vector2(1, -50.5)
+position = Vector2(0, -51.5)
 shape = SubResource("RectangleShape2D_0fq7q")
 
 [node name="BarraVida" type="ProgressBar" parent="." unique_id=1988713171]
@@ -25,9 +24,5 @@ offset_bottom = -17.0
 max_value = 20.0
 value = 20.0
 fill_mode = 1
-
-[node name="Musica" type="AudioStreamPlayer2D" parent="." unique_id=565576914]
-stream = ExtResource("3_b3ojv")
-volume_db = -15.551
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

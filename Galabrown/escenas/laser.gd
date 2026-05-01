@@ -13,7 +13,7 @@ var sentido = -1.0
 var longitud = 950.0
 var fuerza_atraccion = 100.0
 
-const CD_DANIO = 0.5
+const CD_DANIO = 0.3
 var cd_danio = 0.0
 
 

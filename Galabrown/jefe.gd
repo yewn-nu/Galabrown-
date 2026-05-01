@@ -12,7 +12,7 @@ const LIMITE_DER = 1200.0
 const DURACION_ESQUIVE = 1.0
 const CD_ESQUIVE = 12.0
 
-const CD_LASER = 4.0
+const CD_LASER = 24.0
 const CD_EMBESTIDA = 5.0
 const CD_MISILES = 3.0
 
@@ -77,7 +77,7 @@ var EscenaLaser = preload("res://escenas/Laser.tscn")
 
 @onready var sprite = $Sprite
 @onready var barra = $BarraVida
-@onready var musica = $Musica
+
 
 var jugador = null
 
@@ -96,7 +96,7 @@ func _ready():
 	barra.max_value = VIDA_MAX
 	barra.value = VIDA_MAX
 
-	musica.play()
+
 
 	sprite.texture = tex_base
 
@@ -418,7 +418,7 @@ func recibir_danio(cantidad = 1):
 
 func _morir():
 
-	musica.stop()
+
 
 	_terminar_laser()
 

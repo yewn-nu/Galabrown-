@@ -1,24 +1,24 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777665166
+::res://::1777669688
 enemigo.gd::GDScript::7077867805718525651::1777574576::0::1::::<>Area2D<><>0<>0<><>::
 enemigo.tscn::PackedScene::3159117072768262812::1777574576::0::1::::<><><>0<>0<><>::uid://c73tpiws5bkln::::res://enemigo.gd<>uid://c6yku1ykwv16m::::res://sprites/Naves Enemigas/Nave enemiga 1.png
-explosion.gd::GDScript::7827480262626592552::1777665166::0::1::::<>Area2D<><>0<>0<><>::
-Explosion.tscn::PackedScene::6689901637312398286::1777662038::0::1::::<><><>0<>0<><>::uid://djrxprrb4yq8w::::res://explosion.gd<>uid://csfjqely0c7j2::::res://sprites/Fondo/nube-chica-oscura.png
+explosion.gd::GDScript::7827480262626592552::1777665610::0::1::::<>Area2D<><>0<>0<><>::
+Explosion.tscn::PackedScene::6689901637312398286::1777669688::0::1::::<><><>0<>0<><>::uid://djrxprrb4yq8w::::res://explosion.gd<>uid://csfjqely0c7j2::::res://sprites/Fondo/nube-chica-oscura.png
 icon.svg::CompressedTexture2D::5657016983210997118::1777574576::1777574689::1::::<><><>0<>0<>b9d2f8525fcf67d1fdb7b738be2759d5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-jefe.gd::GDScript::2364701223237803879::1777664398::0::1::::<>Area2D<><>0<>0<><>::
-misil.gd::GDScript::5495190354749992347::1777665166::0::1::::<>Area2D<><>0<>0<><>::
-::res://escenas/::1777665386
+jefe.gd::GDScript::2364701223237803879::1777669406::0::1::::<>Area2D<><>0<>0<><>::
+misil.gd::GDScript::5495190354749992347::1777666227::0::1::::<>Area2D<><>0<>0<><>::
+::res://escenas/::1777669406
 bala.gd::GDScript::7971940745003171489::1777574577::0::1::::<>Area2D<><>0<>0<><>::
 Bala.tscn::PackedScene::3428264439137412191::1777598291::0::1::::<><><>0<>0<><>::uid://dltwx1ppmysbx::::res://escenas/bala.gd<>uid://dpkxfh80au2sp::::res://sprites/Bala/bala.png
 cielo.gd::GDScript::7589719682121046828::1777574577::0::1::::<>Sprite2D<><>0<>0<><>::
 cielo_oscuro.gd::GDScript::2773318791222994817::1777574578::0::1::::<>Sprite2D<><>0<>0<><>::
 fondo.gd::GDScript::1553513107051689709::1777574578::0::1::::<>Node2D<><>0<>0<><>::
-Jefe.tscn::PackedScene::1176104887520045802::1777664434::0::1::::<><><>0<>0<><>::uid://8xqjv57qd44b::::res://jefe.gd<>uid://b36qwb4gbyomt::::res://sprites/Jefe1/Base.png<>uid://d2oewplgvvp7q::::res://Musicas/Musica2.ogg
-laser.gd::GDScript::5872096165616441709::1777665386::0::1::::<>Node2D<><>0<>0<><>::
+Jefe.tscn::PackedScene::1176104887520045802::1777668175::0::1::::<><><>0<>0<><>::uid://8xqjv57qd44b::::res://jefe.gd<>uid://b36qwb4gbyomt::::res://sprites/Jefe1/Base.png<>uid://d2oewplgvvp7q::::res://Musicas/Musica2.ogg
+laser.gd::GDScript::5872096165616441709::1777669406::0::1::::<>Node2D<><>0<>0<><>::
 Laser.tscn::PackedScene::8750002598743628302::1777664892::0::1::::<><><>0<>0<><>::uid://cpwqtihch8yif::::res://escenas/laser.gd<>uid://cx81kv2aif7l0::::res://sprites/Jefe1/lazer9.png
-Misil.tscn::PackedScene::2454580923204532754::1777665166::0::1::::<><><>0<>0<><>::uid://ckj58nr0kpgpn::::res://misil.gd<>uid://tsmuwhuumn7a::::res://sprites/Jefe1/MISIL1.png
+Misil.tscn::PackedScene::2454580923204532754::1777667721::0::1::::<><><>0<>0<><>::uid://ckj58nr0kpgpn::::res://misil.gd<>uid://tsmuwhuumn7a::::res://sprites/Jefe1/MISIL1.png
 node_2d.gd::GDScript::1769305797004240378::1777597390::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::8487606272282769609::1777664814::0::1::::<><><>0<>0<><>::uid://0hchcomjxxkc::::res://escenas/node_2d.gd<>uid://weses15d1jw4::::res://escenas/fondo.gd<>uid://krhriokoytll::::res://sprites/Fondo/cielo1.png<>uid://dgertr485i33e::::res://escenas/cielo.gd<>uid://qq5v41qwbsid::::res://sprites/Fondo/cielo-oscuro1.png<>uid://dt0dggib25yv4::::res://escenas/nubes.gd<>uid://bfrofjsc8v450::::res://escenas/cielo_oscuro.gd<>uid://cfxawbapqu2ld::::res://escenas/nubes_oscuro.gd<>uid://d26na507j1nyg::::res://escenas/pricipal.gd<>uid://c80cxqyj1wi5b::::res://escenas/player.gd<>uid://congynojgoag4::::res://sprites/Bala/icono.png
+node_2d.tscn::PackedScene::8487606272282769609::1777668899::0::1::::<><><>0<>0<><>::uid://0hchcomjxxkc::::res://escenas/node_2d.gd<>uid://weses15d1jw4::::res://escenas/fondo.gd<>uid://krhriokoytll::::res://sprites/Fondo/cielo1.png<>uid://dgertr485i33e::::res://escenas/cielo.gd<>uid://qq5v41qwbsid::::res://sprites/Fondo/cielo-oscuro1.png<>uid://dt0dggib25yv4::::res://escenas/nubes.gd<>uid://bfrofjsc8v450::::res://escenas/cielo_oscuro.gd<>uid://cfxawbapqu2ld::::res://escenas/nubes_oscuro.gd<>uid://d26na507j1nyg::::res://escenas/pricipal.gd<>uid://c80cxqyj1wi5b::::res://escenas/player.gd<>uid://congynojgoag4::::res://sprites/Bala/icono.png
 nubes.gd::GDScript::8544652717376401927::1777574579::0::1::::<>Node2D<><>0<>0<><>::
 nubes_oscuro.gd::GDScript::5171305614612727141::1777574579::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript::7140846036431557517::1777665386::0::1::::<>Area2D<><>0<>0<><>::
@@ -41,7 +41,7 @@ nube-grande-oscura.png::CompressedTexture2D::2478888817398056205::1777574583::17
 nube-grande.png::CompressedTexture2D::1388525757928227919::1777574583::1777574689::1::::<><><>0<>0<>d9690b205595e2f5c05575e93ceb4410<>res://.godot/imported/nube-grande.png-c6c8a3921be0f7d8b54e26c90ce4b2f1.ctex::
 nube-mediana-oscura.png::CompressedTexture2D::7641458923210300032::1777574583::1777574689::1::::<><><>0<>0<>a440b2c635d722ccb7197681c88c9899<>res://.godot/imported/nube-mediana-oscura.png-7f3d9bf9bc93a74c37073b47da22264b.ctex::
 nube-mediana.png::CompressedTexture2D::305840903358955921::1777574584::1777574689::1::::<><><>0<>0<>9ac199262ddaf6ae9682e9d5590ea2c9<>res://.godot/imported/nube-mediana.png-b699c7748189f0988d61352724199379.ctex::
-::res://sprites/Jefe1/::1777665471
+::res://sprites/Jefe1/::1777671071
 Base-sin-misiles.png::CompressedTexture2D::5614347165673536000::1777593663::1777594457::1::::<><><>0<>0<>8237f86b52b8b02b69257e0d38f6b57b<>res://.godot/imported/Base-sin-misiles.png-67fe773be876259b3eaa345731f68480.ctex::
 Base.png::CompressedTexture2D::4416714872881618995::1777586843::1777586855::1::::<><><>0<>0<>f4a7999f3ac46ad0dbbcd1ec760c4c47<>res://.godot/imported/Base.png-96bf124302760f2850b31b13e67d4124.ctex::
 DERECHA2.png::CompressedTexture2D::6429084552351770381::1777586930::1777594457::1::::<><><>0<>0<>0e400985562168e60f119720786c1c39<>res://.godot/imported/DERECHA2.png-c088fbb3bd5e1116868a1687c864276c.ctex::
@@ -61,9 +61,9 @@ lazer6.png::CompressedTexture2D::5792243648373946904::1777657013::1777657252::1:
 lazer7.png::CompressedTexture2D::8369100080216625811::1777657047::1777657252::1::::<><><>0<>0<>7f200847acf95ae088838dae2a1e062e<>res://.godot/imported/lazer7.png-dc61533da2f3eb1d3c06bc5860a73268.ctex::
 lazer8.png::CompressedTexture2D::5284216696581559149::1777657070::1777657252::1::::<><><>0<>0<>7a73f7ba492ec7e1b39ec8962d9807ae<>res://.godot/imported/lazer8.png-6730b9309f57a276fb50a868a16cbe27.ctex::
 lazer9.png::CompressedTexture2D::6456906881406893431::1777657105::1777657252::1::::<><><>0<>0<>8acffeb6b2453f2fc8a5037ce910a4d2<>res://.godot/imported/lazer9.png-7e86c8b60c8d8a8057827de51c7841be.ctex::
-MISIL1.png::CompressedTexture2D::1371512315750243796::1777594039::1777594457::1::::<><><>0<>0<>c3f4b6faada829076cb7aa3c381ca7f8<>res://.godot/imported/MISIL1.png-29abb106bdd7072f22697ace6f0a4e13.ctex::
-MISIL2.png::CompressedTexture2D::3523718235607754530::1777594056::1777594457::1::::<><><>0<>0<>b87985908e040d473c8fc7f812aeb6c4<>res://.godot/imported/MISIL2.png-2749a0986c0861b4e4ee79d57bfcf549.ctex::
-MISIL3.png::CompressedTexture2D::6680665646185709690::1777594084::1777594457::1::::<><><>0<>0<>51c09ccb9cf7710c9467e6b281eb940d<>res://.godot/imported/MISIL3.png-cbcbfa33ec21c3186f0e0026c1015782.ctex::
+MISIL1.png::CompressedTexture2D::7419278507063358642::1777670231::1777671076::1::::<><><>0<>0<>3061b1ffd4aed3f3bfdba32e974184a2<>res://.godot/imported/MISIL1.png-29abb106bdd7072f22697ace6f0a4e13.ctex::
+MISIL2.png::CompressedTexture2D::8138023546362876515::1777670685::1777671076::1::::<><><>0<>0<>5db60271648ae1626551e62a68e280b6<>res://.godot/imported/MISIL2.png-2749a0986c0861b4e4ee79d57bfcf549.ctex::
+MISIL3.png::CompressedTexture2D::6053432806953404667::1777671044::1777671076::1::::<><><>0<>0<>a26d0d04b0a1e6cb02c50efddf3431a1<>res://.godot/imported/MISIL3.png-cbcbfa33ec21c3186f0e0026c1015782.ctex::
 NAVE-RAYO.png::CompressedTexture2D::8670708427108766802::1777586945::1777594457::1::::<><><>0<>0<>f74c14c87dd705467608ca4fb2bbd05d<>res://.godot/imported/NAVE-RAYO.png-314bf96e30978af8e396258e5048b2bb.ctex::
 ::res://sprites/Naves Enemigas/::1777574690
 Nave enemiga 1.png::CompressedTexture2D::6998884875235423066::1777574584::1777574690::1::::<><><>0<>0<>198522771311b42d9d268d3d10985483<>res://.godot/imported/Nave enemiga 1.png-d593d49a87cf42e273709da4b7a73635.ctex::

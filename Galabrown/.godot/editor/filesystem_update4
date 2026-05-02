@@ -8,3 +8,5 @@ res://escenas/Misil.tscn
 res://Explosion.tscn
 res://explosion.gd
 res://misil.gd
+res://game_over.gd
+res://GameOver.tscn

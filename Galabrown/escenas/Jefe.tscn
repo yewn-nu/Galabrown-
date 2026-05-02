@@ -6,6 +6,10 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0fq7q"]
 size = Vector2(208, 187)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3hd8"]
+bg_color = Color(1, 0.105882354, 0.1764706, 0.4392157)
+border_color = Color(0, 0, 0, 0.7137255)
+
 [node name="Jefe" type="Area2D" unique_id=432470788]
 script = ExtResource("1_xije6")
 
@@ -21,6 +25,7 @@ offset_left = -127.0
 offset_top = -44.0
 offset_right = 127.0
 offset_bottom = -17.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_n3hd8")
 max_value = 20.0
 value = 20.0
 fill_mode = 1

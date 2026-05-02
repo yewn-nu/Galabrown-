@@ -407,13 +407,19 @@ func _terminar_laser():
 func recibir_danio(cantidad = 1):
 
 	vida -= cantidad
-
 	barra.value = vida
 
+	flash_rojo()  
 
 	if vida <= 0:
-
 		_morir()
+		
+func flash_rojo():
+	sprite.modulate = Color(0.827, 0.0, 0.0, 1.0)
+
+	await get_tree().create_timer(0.2).timeout
+
+	sprite.modulate = Color(1, 1, 1)
 
 
 func _morir():

@@ -89,7 +89,7 @@ Cada escena contiene su propia lógica y comportamiento, lo que permite modulari
 o	Area2D
 o	Sprite2D
 o	CollisionShape2D
-________________________________________
+
 7. Lógica del Juego
 El flujo principal del juego es el siguiente:
 •	El jugador se mueve y dispara
@@ -110,4 +110,5 @@ Para futuras versiones del juego, se pueden implementar:
 10. Conclusión
 El proyecto desarrollado corresponde a un videojuego shooter funcional que integra correctamente conceptos de programación, diseño de sistemas y desarrollo de videojuegos.
 El equipo logró implementar las mecánicas básicas del juego utilizando Godot Engine y GDScript, incluyendo el movimiento del jugador, el sistema de disparo, las colisiones y el jefe final como elemento principal.
+
 

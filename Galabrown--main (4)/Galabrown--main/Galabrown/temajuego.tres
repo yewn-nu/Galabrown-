@@ -1,0 +1,33 @@
+[gd_resource type="Theme" format=3 uid="uid://rnlr6bx7538x"]
+
+[ext_resource type="FontFile" uid="uid://b4828uoeulpxo" path="res://Squartiqa4F.ttf" id="1_pc15k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ns3he"]
+bg_color = Color(0.16470589, 0.16470589, 0.43137255, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 1, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ul6ys"]
+bg_color = Color(0.101960786, 0.101960786, 0.24313726, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0.83137256, 1, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[resource]
+Button/font_sizes/font_size = 38
+Button/fonts/font = ExtResource("1_pc15k")
+Button/styles/hover = SubResource("StyleBoxFlat_ns3he")
+Button/styles/normal = SubResource("StyleBoxFlat_ul6ys")

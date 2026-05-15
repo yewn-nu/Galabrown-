@@ -1,0 +1,11 @@
+res://temajuego.tres
+res://bala_enemiga.gd
+res://enemigo.tscn
+res://enemigo.gd
+res://BalaEnemiga.tscn
+res://BalaEnemiga.gd
+res://escenas/Bala.tscn
+res://escenas/bala.gd
+res://escenas/pricipal.gd
+res://escenas/player.gd
+res://escenas/node_2d.tscn

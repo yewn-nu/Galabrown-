@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://ds6pvul4bshbl"]
+
+[ext_resource type="Script" uid="uid://0hchcomjxxkc" path="res://escenas/node_2d.gd" id="1_2end1"]
+[ext_resource type="Script" uid="uid://weses15d1jw4" path="res://escenas/fondo.gd" id="1_67bck"]
+[ext_resource type="Texture2D" uid="uid://krhriokoytll" path="res://sprites/Fondo/cielo1.png" id="2_r0g7c"]
+[ext_resource type="Script" uid="uid://dgertr485i33e" path="res://escenas/cielo.gd" id="3_hdjqb"]
+[ext_resource type="Texture2D" uid="uid://qq5v41qwbsid" path="res://sprites/Fondo/cielo-oscuro1.png" id="4_ok7wh"]
+[ext_resource type="Script" uid="uid://dt0dggib25yv4" path="res://escenas/nubes.gd" id="4_wvvap"]
+[ext_resource type="Script" uid="uid://bfrofjsc8v450" path="res://escenas/cielo_oscuro.gd" id="5_00qvt"]
+[ext_resource type="Script" uid="uid://cfxawbapqu2ld" path="res://escenas/nubes_oscuro.gd" id="7_uxwy7"]
+[ext_resource type="Script" uid="uid://d26na507j1nyg" path="res://escenas/pricipal.gd" id="8_r0g7c"]
+[ext_resource type="Script" uid="uid://c80cxqyj1wi5b" path="res://escenas/player.gd" id="8_uxwy7"]
+[ext_resource type="Texture2D" uid="uid://congynojgoag4" path="res://sprites/Bala/icono.png" id="8_yqmnl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ok7wh"]
+size = Vector2(1192.9825, 964.91187)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ok7wh"]
+bg_color = Color(0.35686275, 0.7607843, 0.37254903, 0.74509805)
+border_color = Color(0, 0, 0, 0.7137255)
+
+[node name="Node2D" type="Node2D" unique_id=1659021316]
+script = ExtResource("1_2end1")
+
+[node name="Fondo" type="Node2D" parent="." unique_id=728855835]
+script = ExtResource("1_67bck")
+
+[node name="cielo" type="Sprite2D" parent="Fondo" unique_id=1990889100]
+visible = false
+position = Vector2(640, -720)
+texture = ExtResource("2_r0g7c")
+script = ExtResource("3_hdjqb")
+
+[node name="cielo-oscuro" type="Sprite2D" parent="Fondo" unique_id=1677306568]
+position = Vector2(640, -720)
+texture = ExtResource("4_ok7wh")
+script = ExtResource("5_00qvt")
+
+[node name="Nubes" type="Node2D" parent="Fondo" unique_id=1421746478]
+visible = false
+script = ExtResource("4_wvvap")
+
+[node name="Nubes-oscuro" type="Node2D" parent="Fondo" unique_id=692172565]
+script = ExtResource("7_uxwy7")
+
+[node name="Pricipal" type="Node2D" parent="." unique_id=1248068510]
+script = ExtResource("8_r0g7c")
+
+[node name="Jugador" type="Area2D" parent="Pricipal" unique_id=1119704707 groups=["jugador"]]
+position = Vector2(631, 617)
+scale = Vector2(0.057, 0.057)
+script = ExtResource("8_uxwy7")
+
+[node name="SpawnBala" type="Marker2D" parent="Pricipal/Jugador" unique_id=576787443]
+position = Vector2(-52.278, 131.793)
+
+[node name="Sprite2D" type="Sprite2D" parent="Pricipal/Jugador" unique_id=1359154085]
+texture = ExtResource("8_yqmnl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pricipal/Jugador" unique_id=1016876199]
+position = Vector2(0, -131.5791)
+shape = SubResource("RectangleShape2D_ok7wh")
+
+[node name="BarraVida" type="ProgressBar" parent="Pricipal/Jugador" unique_id=1461152904]
+offset_left = -631.5789
+offset_top = 298.24567
+offset_right = 701.7541
+offset_bottom = 473.68414
+theme_override_font_sizes/font_size = 137
+theme_override_styles/fill = SubResource("StyleBoxFlat_ok7wh")
+max_value = 40.0
+value = 40.0
+
+[node name="Musica" type="AudioStreamPlayer" parent="." unique_id=588660488]
+volume_db = -16.951

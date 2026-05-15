@@ -39,4 +39,4 @@ func recibir_danio(cantidad = 1):
 		_morir()
 
 func _morir():
-	get_tree().change_scene_to_file("res://GameOver.tscn")
+	get_tree().change_scene_to_file("res://pantallagameover.tscn")

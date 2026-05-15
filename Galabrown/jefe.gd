@@ -222,8 +222,8 @@ func _esquivar(delta):
 func _modo_ataque(delta):
 
 	if embestiendo:
-
-		_ejecutar_embestida(delta)
+ 
+		_ejecutar_embestida(delta) 
 
 		return
 

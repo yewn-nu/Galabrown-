@@ -1,12 +1,6 @@
-res://escenas/Laser.tscn
-res://escenas/laser.gd
-res://escenas/Jefe.tscn
+res://pantalla_nombre.tscn
+res://temajuego.tres
+res://pantalla_nombre.gd
 res://jefe.gd
 res://escenas/node_2d.tscn
 res://escenas/player.gd
-res://escenas/Misil.tscn
-res://Explosion.tscn
-res://explosion.gd
-res://misil.gd
-res://game_over.gd
-res://GameOver.tscn

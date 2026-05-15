@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c2kvx5fn1wq0m"]
+
+[ext_resource type="Script" uid="uid://djrxprrb4yq8w" path="res://explosion.gd" id="1_li25b"]
+[ext_resource type="Texture2D" uid="uid://dmxvt3jiyng0j" path="res://sprites/Jefe1/explosion1.png" id="2_li25b"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_li25b"]
+radius = 48.0
+
+[node name="Explosion" type="Area2D" unique_id=505420189]
+script = ExtResource("1_li25b")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=637098454]
+texture = ExtResource("2_li25b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=123621417]
+shape = SubResource("CircleShape2D_li25b")

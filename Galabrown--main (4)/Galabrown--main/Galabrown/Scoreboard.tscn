@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://hdxdiqd88qxb"]
+
+[ext_resource type="Theme" uid="uid://rnlr6bx7538x" path="res://temajuego.tres" id="1_0ya6e"]
+[ext_resource type="Script" uid="uid://lhistr8kefjb" path="res://scoreboard.gd" id="2_5jfn8"]
+[ext_resource type="Texture2D" uid="uid://bl7flp6ywrv70" path="res://fondomenu3.jpg" id="3_ide3a"]
+[ext_resource type="Texture2D" uid="uid://bj7qqr18o2x78" path="res://titulo_scoreboard.png" id="4_6ddnf"]
+
+[node name="Scoreboard" type="Control" unique_id=1367922306]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_0ya6e")
+script = ExtResource("2_5jfn8")
+
+[node name="FondoMenu" type="TextureRect" parent="." unique_id=567443858]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ide3a")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=707493498]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="TituloMenu" type="TextureRect" parent="VBoxContainer" unique_id=2142465768]
+custom_minimum_size = Vector2(580, 130)
+layout_mode = 2
+texture = ExtResource("4_6ddnf")
+stretch_mode = 5
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" unique_id=638750772]
+custom_minimum_size = Vector2(580, 300)
+layout_mode = 2
+
+[node name="Lista" type="VBoxContainer" parent="VBoxContainer/ScrollContainer" unique_id=509347755]
+layout_mode = 2
+
+[node name="BotonVolver" type="Button" parent="VBoxContainer" unique_id=994301479]
+custom_minimum_size = Vector2(430, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "VOLVER"
+
+[connection signal="pressed" from="VBoxContainer/BotonVolver" to="." method="_on_boton_volver_pressed"]

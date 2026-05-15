@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://phppjcbwanrt"]
+
+[ext_resource type="Script" uid="uid://dcilx6akm7v1m" path="res://pantallavictoria.gd" id="1_fis2x"]
+[ext_resource type="Texture2D" uid="uid://bl7flp6ywrv70" path="res://fondomenu3.jpg" id="1_leoch"]
+[ext_resource type="Texture2D" uid="uid://cjcfqh1a37ck4" path="res://titulo_victoria.png" id="2_fis2x"]
+[ext_resource type="FontFile" uid="uid://b4828uoeulpxo" path="res://Squartiqa4F.ttf" id="3_fvhp8"]
+[ext_resource type="Theme" uid="uid://rnlr6bx7538x" path="res://temajuego.tres" id="4_qt1j4"]
+
+[node name="PantallaVictoria" type="Control" unique_id=409946609]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_fis2x")
+
+[node name="FondoMenu" type="TextureRect" parent="." unique_id=1162518263]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1152.0
+offset_bottom = 648.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_leoch")
+
+[node name="TituloMenu" type="TextureRect" parent="." unique_id=1643827396]
+layout_mode = 0
+offset_top = 60.0
+offset_right = 1152.0
+offset_bottom = 260.0
+texture = ExtResource("2_fis2x")
+
+[node name="Score" type="Label" parent="." unique_id=1431286922]
+layout_mode = 0
+offset_top = 270.0
+offset_right = 1152.0
+offset_bottom = 293.0
+theme_override_colors/font_color = Color(0.8509804, 0.6784314, 0.011764706, 1)
+theme_override_fonts/font = ExtResource("3_fvhp8")
+theme_override_font_sizes/font_size = 32
+text = "SCORE:000000"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1565969399]
+layout_mode = 0
+offset_left = 361.0
+offset_top = 330.0
+offset_right = 791.0
+offset_bottom = 650.0
+theme = ExtResource("4_qt1j4")
+theme_override_constants/separation = 20
+
+[node name="BotonJugarDeNuevo" type="Button" parent="VBoxContainer" unique_id=96169062]
+custom_minimum_size = Vector2(430, 80)
+layout_mode = 2
+text = "JUGAR DE NUEVO"
+
+[node name="BotonMenuPrincipal" type="Button" parent="VBoxContainer" unique_id=23349032]
+custom_minimum_size = Vector2(430, 80)
+layout_mode = 2
+text = "MENÚ PRINCIPAL"
+
+[node name="BotonSalir" type="Button" parent="VBoxContainer" unique_id=365836917]
+custom_minimum_size = Vector2(430, 80)
+layout_mode = 2
+theme = ExtResource("4_qt1j4")
+text = "SALIR"
+
+[connection signal="pressed" from="VBoxContainer/BotonJugarDeNuevo" to="." method="_on_boton_jugar_de_nuevo_pressed"]
+[connection signal="pressed" from="VBoxContainer/BotonMenuPrincipal" to="." method="_on_boton_menu_principal_pressed"]
+[connection signal="pressed" from="VBoxContainer/BotonSalir" to="." method="_on_boton_salir_pressed"]

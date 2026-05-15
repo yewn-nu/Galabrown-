@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://u75d0c5jc12j"]
+
+[ext_resource type="Script" uid="uid://cdrkg87bptcwk" path="res://game_over.gd" id="1_40baj"]
+
+[node name="GameOver" type="Control" unique_id=70213143]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_40baj")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=686864574]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0, 0.3074113, 0.6141944, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1943200194]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=811461127]
+layout_mode = 2
+theme_override_font_sizes/font_size = 190
+text = "GAME OVER"
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=809880715]
+custom_minimum_size = Vector2(40, 400)
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

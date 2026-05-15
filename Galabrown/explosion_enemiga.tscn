@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b0ehpuhayx4mt"]
+
+[ext_resource type="Script" uid="uid://becdk4b8ikg01" path="res://explosion_enemiga.gd" id="1_20nc0"]
+
+[node name="ExplosionEnemiga" type="Node2D" unique_id=1454882906]
+script = ExtResource("1_20nc0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1459705223]

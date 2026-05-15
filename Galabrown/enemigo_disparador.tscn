@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://71lgrajso8x8"]
+
+[ext_resource type="Script" uid="uid://d1r41w50umwrj" path="res://enemigo_disparador.gd" id="1_6oph0"]
+[ext_resource type="Texture2D" uid="uid://cexukg1lqkvr3" path="res://128px/Enemy01_Green_Frame_1_png_processed.png" id="2_lkyfl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lkyfl"]
+size = Vector2(80, 80)
+
+[node name="EnemigoDisparador" type="Area2D" unique_id=116685057]
+script = ExtResource("1_6oph0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=157888268]
+texture = ExtResource("2_lkyfl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1075124580]
+shape = SubResource("RectangleShape2D_lkyfl")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

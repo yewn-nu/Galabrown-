@@ -1,3 +1,3 @@
-res://Scoreboard.tscn
+res://escenas/node_2d.tscn
 res://temajuego.tres
-res://scoreboard.gd
+res://escenas/player.gd

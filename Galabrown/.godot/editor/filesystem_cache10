@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778888236
+::res://::1778889067
 BalaEnemiga.gd::GDScript::-1::1778882881::0::1::::<>Area2D<><>0<>0<><>::
 BalaEnemiga.tscn::PackedScene::2128088891103916448::1778887001::0::1::::<><><>0<>0<><>::uid://b2oeb0rp7gnsi::::res://bala_enemiga.gd<>uid://b3x4m0je2wwka::::res://sprites/Bala/bala.png
 bala_enemiga2.gd::GDScript::7967656469133064298::1778886803::0::1::::<>Area2D<><>0<>0<><>::
@@ -34,10 +34,10 @@ pantalla_nombre.gd::GDScript::6792953254589090083::1778881931::0::1::::<>Control
 pantalla_nombre.tscn::PackedScene::4384704953482324892::1778877209::0::1::::<><><>0<>0<><>::uid://rnlr6bx7538x::::res://temajuego.tres<>uid://c31s7hqbx5b2j::::res://pantalla_nombre.gd<>uid://b4828uoeulpxo::::res://Squartiqa4F.ttf<>uid://bl7flp6ywrv70::::res://fondomenu3.jpg
 PixelBackgroundSeamless.png::CompressedTexture2D::2818360339594762566::1539528326::1778877471::1::::<><><>0<>0<>af59d13a4fc624b72fb4f1cd47569d77<>res://.godot/imported/PixelBackgroundSeamless.png-ddb839e40c89663b84c0888da90a945c.ctex::
 PixelBackgroundSeamlessVertically.png::CompressedTexture2D::5790981287764278805::1539529148::1778877471::1::::<><><>0<>0<>b47140d3d53158c5fb7268d5ffc6da02<>res://.godot/imported/PixelBackgroundSeamlessVertically.png-aae47e040e94c5f29201483cdbb87ef1.ctex::
-scoreboard.gd::GDScript::787046830247417959::1778862596::0::1::::Scoreboard<>Control<><>0<>0<><>::
-Scoreboard.tscn::PackedScene::498917332029142855::1778863434::0::1::::<><><>0<>0<><>::uid://rnlr6bx7538x::::res://temajuego.tres<>uid://lhistr8kefjb::::res://scoreboard.gd<>uid://bl7flp6ywrv70::::res://fondomenu3.jpg<>uid://bj7qqr18o2x78::::res://titulo_scoreboard.png
+scoreboard.gd::GDScript::787046830247417959::1778888867::0::1::::Scoreboard<>Control<><>0<>0<><>::
+Scoreboard.tscn::PackedScene::498917332029142855::1778888823::0::1::::<><><>0<>0<><>::uid://rnlr6bx7538x::::res://temajuego.tres<>uid://lhistr8kefjb::::res://scoreboard.gd<>uid://bl7flp6ywrv70::::res://fondomenu3.jpg<>uid://bj7qqr18o2x78::::res://titulo_scoreboard.png
 Squartiqa4F.ttf::FontFile::4491720977386752496::1778851689::1778877088::1::::<><><>0<>0<>08a36213a5e8cf8a3e62409a2d5768ce<>res://.godot/imported/Squartiqa4F.ttf-4f65f6f626ec3eaa276a4996172ae29e.fontdata::
-temajuego.tres::Theme::1220747128923790969::1778877210::0::1::::<><><>0<>0<><>::uid://b4828uoeulpxo::::res://Squartiqa4F.ttf
+temajuego.tres::Theme::1220747128923790969::1778888823::0::1::::<><><>0<>0<><>::uid://b4828uoeulpxo::::res://Squartiqa4F.ttf
 titulomenu.png::CompressedTexture2D::3438339257676958190::1778854321::1778877088::1::::<><><>0<>0<>6cbf08f5f5ce84dd0e1234cd5357489c<>res://.godot/imported/titulomenu.png-3537706c2da7b4ce5176262caee10fe9.ctex::
 titulo_gameover.png::CompressedTexture2D::2104006803235512597::1778856131::1778877088::1::::<><><>0<>0<>0ae6501748d1db568396a5fc59f09c82<>res://.godot/imported/titulo_gameover.png-e258e3dc2adf607ae2a58d163bde56b1.ctex::
 titulo_scoreboard.png::CompressedTexture2D::3085181343733080981::1778862980::1778877088::1::::<><><>0<>0<>55e51655c4b14d4239d0e57f1364493d<>res://.godot/imported/titulo_scoreboard.png-796f378cb8a354ebecc5a9e7ff829bb3.ctex::
